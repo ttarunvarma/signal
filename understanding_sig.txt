@@ -1,0 +1,11 @@
+signal
+----------
+
+kill -l : will list all the signals 
+One process can send signal to another process as a form of IPC but no data is delivered.
+Signals are raised from Terminal Handlers(Kernal space) to foreground Process(User Space).
+Process catches the signals and responed in any of 3 ways.
+Responses
+1.	Ignore
+2. default
+3. user defined handler
